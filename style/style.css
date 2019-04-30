@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+#gameField {
+  width: 500px;
+  height: 500px;
+  border: 1px solid; 
+  padding: 25px;
+  background-color: black;
+  margin: auto;
+}
+
+.fieldCell {
+  float: left;
+  border: 1px solid;
+  background-color: white;
+}
+
+.blackbg {
+  background-color: black;
+}

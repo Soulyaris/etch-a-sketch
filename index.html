@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Etch-a-sketch game</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+  <h1>Etch-a-sketch game</h1>
+  <p>Pick color scheme:<br>
+    <input type="radio" name="colorScheme" value="black" checked>Black
+    <input type="radio" name="colorScheme" value="rainbow">Rainbow
+  </p>
+  <p>Choose field size:<br>
+    <p id="fieldSizeLabel"></p>
+    8<input type="range" id="fieldSize" min="8" max="30" step="2">30
+  </p>
+  <button id="clear">Clear field</button>
+  <div id="gameField"></div>
+</body>
+<script type="text/javascript" src="script/script.js"></script>
+</html>
