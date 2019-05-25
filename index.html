@@ -10,13 +10,13 @@
   <p>Pick color scheme:<br>
     <input type="radio" name="colorScheme" value="black" checked>Black
     <input type="radio" name="colorScheme" value="rainbow">Rainbow
+    <input type="radio" name="colorScheme" value="+10% black">+10% black
   </p>
-  <p>Choose field size:<br>
+  <p>Choose field size:</p>
     <p id="fieldSizeLabel"></p>
-    8<input type="range" id="fieldSize" min="8" max="30" step="2">30
-  </p>
-  <button id="clear">Clear field</button>
+    <p><span>4  </span><input class="rangeChanger" type="range" id="fieldSize" min="4" max="128" step="1"><span>  128</span></p>
   <div id="gameField"></div>
+  <button id="clear">Clear field</button>
 </body>
 <script type="text/javascript" src="script/script.js"></script>
 </html>
