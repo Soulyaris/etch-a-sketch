@@ -30,6 +30,7 @@ body {
   vertical-align: middle;
   height: 30px;
   width: 400px;
+  cursor: pointer;
 }
 
 h1, p, #clear {
@@ -60,6 +61,8 @@ p {
 #clear:hover {
   background-color: black;
   border: 2px solid orange;
+  border-top: 2px solid black;
+  cursor: pointer;
   border-radius: 5px;
   color: white;
   font-size: 20px;
@@ -89,6 +92,7 @@ input[type='radio']:after {
   display: inline-block;
   visibility: visible;
   border: 2px solid orange;
+  cursor: pointer;
 }
 
 input[type='radio']:checked:after {
